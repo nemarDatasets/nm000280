@@ -1,0 +1,202 @@
+onset	duration	trial_type	value	sample
+0.94921875	0.0	Trial Started	1	243
+6.95703125	0.0	ssvep,2,1,10, Contrast1Size2	6	1781
+11.95703125	0.0	getting score	3	3061
+15.01171875	0.0	stimulus ended	37	3843
+20.02734375	0.0	baseline ended	2	5127
+20.02734375	0.0	ssvep,2,1,10, Contrast1Size3	7	5127
+25.03125	0.0	getting score	3	6408
+26.83203125	0.0	stimulus ended	37	6869
+31.84375	0.0	baseline ended	2	8152
+31.84375	0.0	ssvep,2,1,10, Stim1: Contrast1Size2, Stim2: Contrast1Size3	19	8152
+40.4453125	0.0	off	4	10354
+50.4453125	0.0	ssvep,2,1,10, Contrast4Size1	14	12914
+55.44921875	0.0	getting score	3	14195
+56.51953125	0.0	stimulus ended	37	14469
+61.51953125	0.0	baseline ended	2	15749
+61.51953125	0.0	ssvep,2,1,10, Contrast4Size3	16	15749
+66.51953125	0.0	getting score	3	17029
+68.04296875	0.0	stimulus ended	37	17419
+73.0625	0.0	baseline ended	2	18704
+73.0625	0.0	ssvep,2,1,10, Stim1: Contrast4Size1, Stim2: Contrast4Size3	33	18704
+79.03515625	0.0	off	4	20233
+89.0390625	0.0	ssvep,2,1,10, Contrast1Size1	5	22794
+94.0390625	0.0	getting score	3	24074
+95.578125	0.0	stimulus ended	37	24468
+100.578125	0.0	baseline ended	2	25748
+100.578125	0.0	ssvep,2,1,10, Contrast2Size2	9	25748
+105.58203125	0.0	getting score	3	27029
+108.04296875	0.0	stimulus ended	37	27659
+113.0546875	0.0	baseline ended	2	28942
+113.0546875	0.0	ssvep,2,1,10, Stim1: Contrast1Size1, Stim2: Contrast2Size2	17	28942
+119.375	0.0	off	4	30560
+129.37890625	0.0	ssvep,2,1,10, Contrast3Size2	12	33121
+134.37890625	0.0	getting score	3	34401
+135.9296875	0.0	stimulus ended	37	34798
+140.94140625	0.0	baseline ended	2	36081
+140.94140625	0.0	ssvep,2,1,10, Contrast2Size3	10	36081
+145.94140625	0.0	getting score	3	37361
+147.4609375	0.0	stimulus ended	37	37750
+152.46484375	0.0	baseline ended	2	39031
+152.46484375	0.0	ssvep,2,1,10, Stim1: Contrast3Size2, Stim2: Contrast2Size3	27	39031
+155.8203125	0.0	off	4	39890
+165.83203125	0.0	ssvep,2,1,10, Contrast3Size3	13	42453
+170.83203125	0.0	getting score	3	43733
+172.65625	0.0	stimulus ended	37	44200
+177.67578125	0.0	baseline ended	2	45485
+177.67578125	0.0	ssvep,2,1,10, Contrast2Size1	8	45485
+182.6796875	0.0	getting score	3	46766
+184.984375	0.0	stimulus ended	37	47356
+189.98828125	0.0	baseline ended	2	48637
+189.98828125	0.0	ssvep,2,1,10, Stim1: Contrast3Size3, Stim2: Contrast2Size1	28	48637
+192.546875	0.0	off	4	49292
+204.5546875	0.0	ssvep,2,1,10, Contrast3Size1	11	52366
+209.5546875	0.0	getting score	3	53646
+211.41796875	0.0	stimulus ended	37	54123
+216.4296875	0.0	baseline ended	2	55406
+216.4296875	0.0	ssvep,2,1,10, Contrast4Size2	15	55406
+221.43359375	0.0	getting score	3	56687
+222.93359375	0.0	stimulus ended	37	57071
+227.9453125	0.0	baseline ended	2	58354
+227.9453125	0.0	ssvep,2,1,10, Stim1: Contrast3Size1, Stim2: Contrast4Size2	26	58354
+230.3046875	0.0	off	4	58958
+240.30859375	0.0	ssvep,2,1,10, Contrast1Size3	7	61519
+245.31640625	0.0	getting score	3	62801
+246.71484375	0.0	stimulus ended	37	63159
+251.734375	0.0	baseline ended	2	64444
+251.734375	0.0	ssvep,2,1,10, Contrast4Size3	16	64444
+256.74609375	0.0	getting score	3	65727
+258.34375	0.0	stimulus ended	37	66136
+263.3515625	0.0	baseline ended	2	67418
+263.3515625	0.0	ssvep,2,1,10, Stim1: Contrast1Size3, Stim2: Contrast4Size3	22	67418
+265.37109375	0.0	off	4	67935
+275.3828125	0.0	ssvep,2,1,10, Contrast2Size2	9	70498
+280.38671875	0.0	getting score	3	71779
+281.92578125	0.0	stimulus ended	37	72173
+286.9375	0.0	baseline ended	2	73456
+286.9375	0.0	ssvep,2,1,10, Contrast3Size2	12	73456
+291.9375	0.0	getting score	3	74736
+293.5390625	0.0	stimulus ended	37	75146
+298.55859375	0.0	baseline ended	2	76431
+298.55859375	0.0	ssvep,2,1,10, Stim1: Contrast2Size2, Stim2: Contrast3Size2	25	76431
+300.8515625	0.0	off	4	77018
+310.86328125	0.0	ssvep,2,1,10, Contrast3Size3	13	79581
+315.8671875	0.0	getting score	3	80862
+317.15625	0.0	stimulus ended	37	81192
+322.1640625	0.0	baseline ended	2	82474
+322.1640625	0.0	ssvep,2,1,10, Contrast4Size2	15	82474
+327.1640625	0.0	getting score	3	83754
+328.34375	0.0	stimulus ended	37	84056
+333.35546875	0.0	baseline ended	2	85339
+333.35546875	0.0	ssvep,2,1,10, Stim1: Contrast3Size3, Stim2: Contrast4Size2	31	85339
+335.28515625	0.0	off	4	85833
+345.2890625	0.0	ssvep,2,1,10, Contrast4Size3	16	88394
+350.2890625	0.0	getting score	3	89674
+351.875	0.0	stimulus ended	37	90080
+356.8828125	0.0	baseline ended	2	91362
+356.8828125	0.0	ssvep,2,1,10, Contrast3Size2	12	91362
+361.88671875	0.0	getting score	3	92643
+363.625	0.0	stimulus ended	37	93088
+368.640625	0.0	baseline ended	2	94372
+368.640625	0.0	ssvep,2,1,10, Stim1: Contrast4Size3, Stim2: Contrast3Size2	36	94372
+370.5390625	0.0	off	4	94858
+382.5546875	0.0	ssvep,2,1,10, Contrast4Size2	15	97934
+387.5546875	0.0	getting score	3	99214
+388.765625	0.0	stimulus ended	37	99524
+393.77734375	0.0	baseline ended	2	100807
+393.77734375	0.0	ssvep,2,1,10, Contrast4Size3	16	100807
+398.78125	0.0	getting score	3	102088
+400.1015625	0.0	stimulus ended	37	102426
+405.109375	0.0	baseline ended	2	103708
+405.109375	0.0	ssvep,2,1,10, Stim1: Contrast4Size2, Stim2: Contrast4Size3	35	103708
+410.4921875	0.0	off	4	105086
+420.49609375	0.0	ssvep,2,1,10, Contrast1Size2	6	107647
+425.49609375	0.0	getting score	3	108927
+427.2578125	0.0	stimulus ended	37	109378
+432.26953125	0.0	baseline ended	2	110661
+432.26953125	0.0	ssvep,2,1,10, Contrast4Size1	14	110661
+437.26953125	0.0	getting score	3	111941
+438.55078125	0.0	stimulus ended	37	112269
+443.5625	0.0	baseline ended	2	113552
+443.5625	0.0	ssvep,2,1,10, Stim1: Contrast1Size2, Stim2: Contrast4Size1	20	113552
+445.54296875	0.0	off	4	114059
+455.546875	0.0	ssvep,2,1,10, Contrast1Size1	5	116620
+460.546875	0.0	getting score	3	117900
+462.46875	0.0	stimulus ended	37	118392
+467.4921875	0.0	baseline ended	2	119678
+467.4921875	0.0	ssvep,2,1,10, Contrast2Size3	10	119678
+472.4921875	0.0	getting score	3	120958
+474.09375	0.0	stimulus ended	37	121368
+479.109375	0.0	baseline ended	2	122652
+479.109375	0.0	ssvep,2,1,10, Stim1: Contrast1Size1, Stim2: Contrast2Size3	18	122652
+481.31640625	0.0	off	4	123217
+491.32421875	0.0	ssvep,2,1,10, Contrast2Size1	8	125779
+496.32421875	0.0	getting score	3	127059
+497.76171875	0.0	stimulus ended	37	127427
+502.77734375	0.0	baseline ended	2	128711
+502.77734375	0.0	ssvep,2,1,10, Contrast3Size1	11	128711
+507.78125	0.0	getting score	3	129992
+509.12890625	0.0	stimulus ended	37	130337
+514.1328125	0.0	baseline ended	2	131618
+514.1328125	0.0	ssvep,2,1,10, Stim1: Contrast2Size1, Stim2: Contrast3Size1	23	131618
+516.0625	0.0	off	4	132112
+526.078125	0.0	ssvep,2,1,10, Contrast1Size3	7	134676
+531.08203125	0.0	getting score	3	135957
+532.75	0.0	stimulus ended	37	136384
+537.75390625	0.0	baseline ended	2	137665
+537.75390625	0.0	ssvep,2,1,10, Contrast4Size1	14	137665
+542.75390625	0.0	getting score	3	138945
+543.78515625	0.0	stimulus ended	37	139209
+548.796875	0.0	baseline ended	2	140492
+548.796875	0.0	ssvep,2,1,10, Stim1: Contrast1Size3, Stim2: Contrast4Size1	21	140492
+550.40625	0.0	off	4	140904
+562.421875	0.0	ssvep,2,1,10, Contrast2Size2	9	143980
+567.42578125	0.0	getting score	3	145261
+569.1171875	0.0	stimulus ended	37	145694
+574.12890625	0.0	baseline ended	2	146977
+574.12890625	0.0	ssvep,2,1,10, Contrast1Size1	5	146977
+579.12890625	0.0	getting score	3	148257
+580.62109375	0.0	stimulus ended	37	148639
+585.640625	0.0	baseline ended	2	149924
+585.640625	0.0	ssvep,2,1,10, Stim1: Contrast2Size2, Stim2: Contrast1Size1	24	149924
+588.3125	0.0	off	4	150608
+598.32421875	0.0	ssvep,2,1,10, Contrast3Size3	13	153171
+603.328125	0.0	getting score	3	154452
+604.62890625	0.0	stimulus ended	37	154785
+609.640625	0.0	baseline ended	2	156068
+609.640625	0.0	ssvep,2,1,10, Contrast3Size1	11	156068
+614.640625	0.0	getting score	3	157348
+615.984375	0.0	stimulus ended	37	157692
+621.00390625	0.0	baseline ended	2	158977
+621.00390625	0.0	ssvep,2,1,10, Stim1: Contrast3Size3, Stim2: Contrast3Size1	29	158977
+624.95703125	0.0	off	4	159989
+634.9609375	0.0	ssvep,2,1,10, Contrast4Size1	14	162550
+639.96484375	0.0	getting score	3	163831
+641.203125	0.0	stimulus ended	37	164148
+646.21875	0.0	baseline ended	2	165432
+646.21875	0.0	ssvep,2,1,10, Contrast2Size2	9	165432
+651.21875	0.0	getting score	3	166712
+652.70703125	0.0	stimulus ended	37	167093
+657.7109375	0.0	baseline ended	2	168374
+657.7109375	0.0	ssvep,2,1,10, Stim1: Contrast4Size1, Stim2: Contrast2Size2	32	168374
+659.3203125	0.0	off	4	168786
+669.328125	0.0	ssvep,2,1,10, Contrast3Size3	13	171348
+674.328125	0.0	getting score	3	172628
+675.66015625	0.0	stimulus ended	37	172969
+680.6640625	0.0	baseline ended	2	174250
+680.6640625	0.0	ssvep,2,1,10, Contrast4Size1	14	174250
+685.6640625	0.0	getting score	3	175530
+686.6953125	0.0	stimulus ended	37	175794
+691.7109375	0.0	baseline ended	2	177078
+691.7109375	0.0	ssvep,2,1,10, Stim1: Contrast3Size3, Stim2: Contrast4Size1	30	177078
+693.73046875	0.0	off	4	177595
+703.7421875	0.0	ssvep,2,1,10, Contrast4Size2	15	180158
+708.74609375	0.0	getting score	3	181439
+710.375	0.0	stimulus ended	37	181856
+715.37890625	0.0	baseline ended	2	183137
+715.37890625	0.0	ssvep,2,1,10, Contrast4Size1	14	183137
+720.3828125	0.0	getting score	3	184418
+721.93359375	0.0	stimulus ended	37	184815
+726.9453125	0.0	baseline ended	2	186098
+726.9453125	0.0	ssvep,2,1,10, Stim1: Contrast4Size2, Stim2: Contrast4Size1	34	186098
+732.125	0.0	off	4	187424

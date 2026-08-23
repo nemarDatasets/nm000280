@@ -1,0 +1,17 @@
+name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
+Fz	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+F4	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+F8	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+C3	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+Cz	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+C4	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+T8	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+P7	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+P3	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+P4	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+P8	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+PO7	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+PO8	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+O1	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+Oz	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a
+O2	EEG	µV	0.0	128.0	ElectroEncephaloGram	256.0	good	n/a

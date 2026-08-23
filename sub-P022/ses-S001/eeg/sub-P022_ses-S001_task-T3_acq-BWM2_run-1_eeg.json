@@ -1,0 +1,23 @@
+{
+    "TaskName": "T3",
+    "Manufacturer": "g.tec",
+    "PowerLineFrequency": 60.0,
+    "SamplingFrequency": 256.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 623.49609375,
+    "RecordingType": "continuous",
+    "EEGReference": "earlobe",
+    "EEGGround": "Fpz",
+    "EEGPlacementScheme": "based on the extended 10/20 system",
+    "EEGChannelCount": 16,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 0,
+    "TriggerChannelCount": 0,
+    "ManufacturersModelName": "g.USBamp",
+    "CapManufacturer": "g.tec",
+    "CapManufacturersModelName": "g.GAMMAcap",
+    "SoftwareVersions": "Unity3D + BCI-Essentials",
+    "TaskDescription": "Online 4-target SSVEP game (6.25 / 10 / 11.11 / 14.28 Hz)."
+}

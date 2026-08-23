@@ -1,0 +1,272 @@
+{
+  "title": "A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents",
+  "description": "This dataset contains pediatric EEG data recorded during an SSVEP-based BCI experiment that implemented an SSVEP stimulus personalization pipeline. Data from 47 neurotypical participants aged 5-18 years is included in this repository. This data is made publicly available with the aim of promoting the development of signal processing methods specific to pediatric SSVEP-based BCI data. ",
+  "creators": [
+    {
+      "abbreviation": "",
+      "fullName": "Emily Schrag",
+      "firstName": "Emily",
+      "lastName": "Schrag",
+      "email": "emily.schrag@ucalgary.ca",
+      "affiliations": [
+        {
+          "name": "Department of Pediatrics, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada. "
+        },
+        {
+          "name": "Department of Neuroscience, University of Calgary, Calgary, AB, Canada. "
+        }
+      ],
+      "roles": [
+        {
+          "value": "Contributor"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0009-0000-1607-2621"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Daniel Comaduran Marquez",
+      "firstName": "Daniel",
+      "lastName": "Comaduran Marquez",
+      "email": "dcomadur@ucalgary.ca",
+      "affiliations": [
+        {
+          "name": "Department of Pediatrics, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada. "
+        },
+        {
+          "name": "Calgary Pediatric Stroke Program, Alberta Children’s Hospital, Calgary, AB, Canada. "
+        }
+      ],
+      "roles": [
+        {
+          "value": "Contributor"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0002-1674-4835"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Adam Kirton",
+      "firstName": "Adam",
+      "lastName": "Kirton",
+      "email": "cakirton@ucalgary.ca",
+      "affiliations": [
+        {
+          "name": "Department of Pediatrics, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada. "
+        },
+        {
+          "name": "Calgary Pediatric Stroke Program, Alberta Children’s Hospital, Calgary, AB, Canada. "
+        }
+      ],
+      "roles": [
+        {
+          "value": "Principal Investigator"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0001-5209-3374"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Eli Kinney-Lang",
+      "firstName": "Eli",
+      "lastName": "Kinney-Lang",
+      "email": "eli.kinneylang@ucalgary.ca",
+      "affiliations": [
+        {
+          "name": "Department of Biomedical Engineering, University of Calgary, Calgary, AB, Canada."
+        }
+      ],
+      "roles": [
+        {
+          "value": "Principal Investigator"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0002-5163-3073"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "EEG"
+      }
+    },
+    {
+      "information": {
+        "value": "Basic Demographics"
+      }
+    },
+    {
+      "information": {
+        "value": "Survey Responses"
+      }
+    }
+  ],
+  "version": "1.0",
+  "privacy": "open",
+  "licenses": [
+    {
+      "name": "CC BY-ND"
+    }
+  ],
+  "distributions": [
+    {
+      "formats": [
+        "XDF",
+        "CSV",
+        "PDF",
+        "PNG",
+        "IPYNB",
+        "MP4"
+      ],
+      "size": 1.48,
+      "unit": {
+        "value": "GB"
+      },
+      "access": {
+        "landingPage": "https://doi.org/10.5281/zenodo.19440997",
+        "authorizations": [
+          {
+            "value": "public"
+          }
+        ]
+      }
+    }
+  ],
+  "isAbout": [
+    {
+      "name": "Homo sapiens",
+      "identifier": {
+        "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+        "identifierSource": "NCBI Taxonomy Database"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "value": "EEG, brain-computer interface, BCI, steady-state visual evoked potential, SSVEP, Pediatric SSVEP, Pediatric BCI"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "47"
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "474"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "Canadian"
+        }
+      ]
+    },
+    {
+      "category": "origin_institution",
+      "values": [
+        {
+          "value": "University of Calgary"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Calgary"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Alberta"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
+        }
+      ]
+    },
+    {
+      "category": "logo",
+      "values": [
+        {
+          "value": "BCI4Kids_ColorMedium.png"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Emily Schrag, emily.schrag@ucalgary.ca"
+        }
+      ]
+    },
+    {
+      "category": "REB_statement",
+      "values": [
+        {
+          "value": "In submitting this dataset for inclusion, I declare that participants have provided a valid informed consent to the de-identification and deposit of their data in an open-access portal."
+        }
+      ]
+    },
+    {
+      "category": "REB_number",
+      "values": [
+        {
+          "value": "REB25-0723"
+        }
+      ]
+    }
+  ]
+}

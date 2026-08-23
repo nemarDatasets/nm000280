@@ -1,0 +1,338 @@
+{
+ "dataset": "Schrag2026 pediatric SSVEP",
+ "upstream": "Zenodo record 20848097 (version 3.0)",
+ "upstream_url": "https://zenodo.org/records/20848097",
+ "upstream_doi": "10.5281/zenodo.20848097",
+ "concept_doi": "10.5281/zenodo.19440996",
+ "license": "CC-BY-4.0",
+ "retrieved": "2026-08-23",
+ "note": "The original distribution, byte-identical to Zenodo (verify with zenodo_md5). The BIDS tree above was converted from the XDF recordings inside these archives; the comfort ratings, movement CSVs and videos, surveys and supplementary files have no BIDS representation and are preserved only here.",
+ "n_files": 54,
+ "total_bytes": 1275035013,
+ "files": [
+  {
+   "file": "BCI4Kids_ColorMedium.png",
+   "bytes": 162900,
+   "sha256": "5c75f00488d3ed82421b78870f90f66047177d3c24ea781e4afe55e04a42455c",
+   "zenodo_md5": "71e8aba24ee4f6ee78d640c71ea7e33f"
+  },
+  {
+   "file": "DATS.json",
+   "bytes": 6107,
+   "sha256": "b3ebc264b1380c80176bfd3b5d35bc4184db28cd119f1a12a429b5f944375f25",
+   "zenodo_md5": "0ce920ce523252d45675763e92f4e915"
+  },
+  {
+   "file": "P001.zip",
+   "bytes": 38193607,
+   "sha256": "876e5dd9937760cdfde3fde75246f33ec7daa8a918f4df1fec4600427c83c62a",
+   "zenodo_md5": "542dcb1f45ccb75f475a931ba7708c5b"
+  },
+  {
+   "file": "P002.zip",
+   "bytes": 27192098,
+   "sha256": "c47ad9ecd4baa47785e573902f2cc10318fd9250cf3ded7d85d0553f906ab78f",
+   "zenodo_md5": "36f87c553ff0c0cb4a95ffcbeea556b5"
+  },
+  {
+   "file": "P003.zip",
+   "bytes": 26164475,
+   "sha256": "4608e1c7a673c1eea57f96f5c74cb40d6eb3cfab4630ed1b9dc8cc2f2835d5a5",
+   "zenodo_md5": "16960d220b989b82169eec7e1e1f105a"
+  },
+  {
+   "file": "P004.zip",
+   "bytes": 23028925,
+   "sha256": "977634e87c34670f15866a46908e5c538947c3e0010353d54b05bdce04392fc7",
+   "zenodo_md5": "d5a48f790e8a588a2be182c11c12fe11"
+  },
+  {
+   "file": "P005.zip",
+   "bytes": 34396078,
+   "sha256": "e55b247e9f6734ed1d4340f2146efe5aff41b5f9cacff52df4d8ddbcba25d2c3",
+   "zenodo_md5": "197b83abb7f4e7946336b078ee8ffb57"
+  },
+  {
+   "file": "P006.zip",
+   "bytes": 21350023,
+   "sha256": "7b35846c6dcb1f07095f8ff50a441353ed5142570ee75df89d7f29c925e41d3b",
+   "zenodo_md5": "a02b533c57580c2b11c9a1b6444c5cbe"
+  },
+  {
+   "file": "P007.zip",
+   "bytes": 24072394,
+   "sha256": "6a803b7308fc988625be240de038f26e0d2586f27e1c3303680ee5158d2f2a1d",
+   "zenodo_md5": "0393dc47196b13f8e61116ef4d4df09b"
+  },
+  {
+   "file": "P008.zip",
+   "bytes": 35377519,
+   "sha256": "567527ffcf53a7dec546f84dc7be29300d146e54a58db21503b2b25441d2c4bd",
+   "zenodo_md5": "b16bd41c6549e505158dd6185005d62e"
+  },
+  {
+   "file": "P009.zip",
+   "bytes": 26909663,
+   "sha256": "bc912ea78ef9beabcd2160abcfb1c17ff60b977b9ea89105140316fa2811b166",
+   "zenodo_md5": "4daf24944f43912f3f4e35ec73d41c35"
+  },
+  {
+   "file": "P010.zip",
+   "bytes": 28591243,
+   "sha256": "beeb90578a2b3cbcf6e1a0fb4c31dbc9d7be18bff25263ac496d7a13da4c39b0",
+   "zenodo_md5": "95ec13a020f7eaa69422668e0e347fb8"
+  },
+  {
+   "file": "P011.zip",
+   "bytes": 28464039,
+   "sha256": "c05b58e960358a52fbf5f0ca83ff861dbc0ebda2d30e189a74484b61ec21f78b",
+   "zenodo_md5": "a040359ba5459f552a7c927d1d5aba8e"
+  },
+  {
+   "file": "P012.zip",
+   "bytes": 25870358,
+   "sha256": "5bcb692b9a3d5c4b55ec7db58afc31ddf1b158b3fe8edc5f2bb5e80611fbdac2",
+   "zenodo_md5": "59371454da13ed23db85c942552765e5"
+  },
+  {
+   "file": "P013.zip",
+   "bytes": 22591792,
+   "sha256": "08412233502b29bf52b0f2d198043b8aa1952f5a3166f899872040c01df7747a",
+   "zenodo_md5": "4229bf9fc1e51f03c043db26ae4a8200"
+  },
+  {
+   "file": "P014.zip",
+   "bytes": 20671326,
+   "sha256": "04e93127393f8fbe34651ec4a7f6efbcb73a1088a7a1fec970a757975a053bbf",
+   "zenodo_md5": "4d9757077997345487c3deee8bbfa053"
+  },
+  {
+   "file": "P015.zip",
+   "bytes": 20337607,
+   "sha256": "09056a34bfa95abbaf6c07a00e540abcd1bad000c3c2cbac862c83b2bbbd6b80",
+   "zenodo_md5": "a3ea181b06be803d6b463a65e3d6df97"
+  },
+  {
+   "file": "P016.zip",
+   "bytes": 28713590,
+   "sha256": "8efe6b2aea7b1512af88721e1994686548a3de7522585cba3802b22a49e5e3a8",
+   "zenodo_md5": "bd1ad881af0e578df25be31485ec7bfb"
+  },
+  {
+   "file": "P017.zip",
+   "bytes": 21544715,
+   "sha256": "a04506b021197d029d85e2adc7f0c635c35e250b720e02ddfb4e4b638be902b5",
+   "zenodo_md5": "21c88975adefa1352d709bdd40a4a02c"
+  },
+  {
+   "file": "P018.zip",
+   "bytes": 19722475,
+   "sha256": "c6d50cfa14297236a76d1254fe67ac1dd8ccfa8e6e309135183e9564ca73d418",
+   "zenodo_md5": "acdb064341c860d1ec50c07dea8473ea"
+  },
+  {
+   "file": "P019.zip",
+   "bytes": 24153178,
+   "sha256": "476047ce9c4a89c20477c399b0c243e0a35b3926370f465e419bb5966febf837",
+   "zenodo_md5": "259d0c72555a947b5062e05215667e69"
+  },
+  {
+   "file": "P020.zip",
+   "bytes": 24079269,
+   "sha256": "f41fed4ee9820cb91782df6f0e4ad51885ad0003aca6ae2db9d78f25d8247637",
+   "zenodo_md5": "2d6be8182e7d82882060ef80fae06f7c"
+  },
+  {
+   "file": "P021.zip",
+   "bytes": 20761420,
+   "sha256": "06837f3cf37174e85ef5be02260fe567d5f29279134ec22511dcf29083799246",
+   "zenodo_md5": "a2021dc4e7dacb493221c2f9c4515e9c"
+  },
+  {
+   "file": "P022.zip",
+   "bytes": 37214870,
+   "sha256": "fb170b223b2ca88d21ed86ee3e7204d55267bb4c4193a0517f8b6efbf23772d8",
+   "zenodo_md5": "21f2ec5ec8e847df43ebfef03d9062c8"
+  },
+  {
+   "file": "P023.zip",
+   "bytes": 22967461,
+   "sha256": "af728a8ee30648e1e6c594e6078e82aa83337ab4d2ac1e4275f3460e3fcf8921",
+   "zenodo_md5": "609473e21587ec451816559a89b4a622"
+  },
+  {
+   "file": "P024.zip",
+   "bytes": 26665495,
+   "sha256": "11409b7f6a3bb0d7aacf89fa2671d364ede65dd12b6d570893b997f36f8949f4",
+   "zenodo_md5": "5fda4b6d6b493fa4e86551d9aef45048"
+  },
+  {
+   "file": "P025.zip",
+   "bytes": 28185885,
+   "sha256": "bd145b784d73a60c0585a201b7281844e9d730d80f363405b74ffab599e9a948",
+   "zenodo_md5": "98ac8d2c4304562df7ddf79aa7eec624"
+  },
+  {
+   "file": "P026.zip",
+   "bytes": 34483832,
+   "sha256": "624f00a18f1266adebc0e6fca9dc6525894e9b17e5dfd09966fee1364edf33fb",
+   "zenodo_md5": "0a47dc350fa31e5a9e3a6a4c400d7277"
+  },
+  {
+   "file": "P027.zip",
+   "bytes": 34425438,
+   "sha256": "ba8b677fcb22ccfd29246f29d65215aaf3788567212ae3768c19e76638b0f647",
+   "zenodo_md5": "dc30aa54d10f361418caa7dd055027db"
+  },
+  {
+   "file": "P028.zip",
+   "bytes": 36099393,
+   "sha256": "3427c4b333ccc8e4ab935001f05756503d7969021281802105c38813f0425b90",
+   "zenodo_md5": "129b4dde3b9a3500e3dc5ec578ce8407"
+  },
+  {
+   "file": "P029.zip",
+   "bytes": 22361584,
+   "sha256": "0eb56f78d1f4093e30ac21609d4956d2b86647c06ac0c50e048bdebb9afd1d2d",
+   "zenodo_md5": "9c643c9223f1b8132471ae71d1537691"
+  },
+  {
+   "file": "P030.zip",
+   "bytes": 25993749,
+   "sha256": "2ac27821178bf59be42e88fffbc588ed3fa72610051992f66176a4f76d6111dd",
+   "zenodo_md5": "381bf56d69bf88ef121b76e92760e08f"
+  },
+  {
+   "file": "P031.zip",
+   "bytes": 25112207,
+   "sha256": "afdbb79d5e34575d9151da4a674b66904a04350165d6f34512459a098e31d556",
+   "zenodo_md5": "8c982dca3f25f2a5d496bb8cb4c02ddc"
+  },
+  {
+   "file": "P032.zip",
+   "bytes": 21395652,
+   "sha256": "5c4692c4c94fafbbd71d1bb7f5042c19478fb297d27dbf9ce6e658872494c12f",
+   "zenodo_md5": "bb590286cc9d31f14503128fca2c31e5"
+  },
+  {
+   "file": "P033.zip",
+   "bytes": 35005754,
+   "sha256": "eccf1d5d242a1b1935a36ab51775b0bdba00bff889b62f5055b40890a1d65bcb",
+   "zenodo_md5": "eb89fc8532be7b1408d8724e8595a523"
+  },
+  {
+   "file": "P034.zip",
+   "bytes": 28174429,
+   "sha256": "bf6bacbd3af51b6e23a6e5071199953e61dd582d8215125af6a2da7d7bf55609",
+   "zenodo_md5": "9d596a7e40fa617e5095ba12db6cd2cd"
+  },
+  {
+   "file": "P035.zip",
+   "bytes": 22818644,
+   "sha256": "f1e91ee9f3964332f81e60a4ed9b86079b3e273755395b8bb13041f7dbb58090",
+   "zenodo_md5": "0abfe69aef0d2d63a2900488ac27d53d"
+  },
+  {
+   "file": "P036.zip",
+   "bytes": 27032673,
+   "sha256": "6ee471036c22ccc9fa894fbc6fe5ac7e919cfdcfbc75db80c1b0099dde8ba126",
+   "zenodo_md5": "3d8036289699b5cbd28a7540389791ff"
+  },
+  {
+   "file": "P037.zip",
+   "bytes": 26928329,
+   "sha256": "f546850edebe545dd9298bc743d987f57147cbb48aba237b28288ab13d25c5de",
+   "zenodo_md5": "ad7915b6511bb1c80ea48c4f610eb469"
+  },
+  {
+   "file": "P038.zip",
+   "bytes": 24938544,
+   "sha256": "4abc327a1bd08463a29cf91fa668610f44fdaba5156ccc03a4e9aa8465aaf880",
+   "zenodo_md5": "5185f9dafc1f9236a26c9e34e7884b24"
+  },
+  {
+   "file": "P039.zip",
+   "bytes": 21937287,
+   "sha256": "814fc4e9d7dfc770d1c7486f940e88c51dae5d85f051a5fd8f96fee978c02cae",
+   "zenodo_md5": "3c4244bd9365440110acb8a0813b4239"
+  },
+  {
+   "file": "P040.zip",
+   "bytes": 27344521,
+   "sha256": "cfaf54aa3a53b4fb0df463a967126a2ea9071b9673b23c2e3490b6985e157886",
+   "zenodo_md5": "d442761b28f51866a54a5dfc2a63b6a6"
+  },
+  {
+   "file": "P041.zip",
+   "bytes": 26938143,
+   "sha256": "bc745a60807292f3e1df96f4165a3b1fbe4331f1851ee754dd46d9e879d44e9b",
+   "zenodo_md5": "68b288803372202b735c59cece985122"
+  },
+  {
+   "file": "P042.zip",
+   "bytes": 21348653,
+   "sha256": "718b77a2cbe03bd0409ab9c6bb1491868fecd14ccb57a57b549f3e067905768a",
+   "zenodo_md5": "90d59f89c8ae26f3781a38bf32f513ae"
+  },
+  {
+   "file": "P043.zip",
+   "bytes": 21714244,
+   "sha256": "7a54bcd6f954aa4a08d120a73e0e15ed6c68f7257cb90a1e2fb34911cf9e8429",
+   "zenodo_md5": "62abf73a4f0412ffa4cd20a42a0284e2"
+  },
+  {
+   "file": "P044.zip",
+   "bytes": 30506388,
+   "sha256": "3c8cd19ce72ce1fa2d8c95a6a72b0d04fffe50f8e3707a4a18eb9c0e06cbf4c4",
+   "zenodo_md5": "70dbfbf27400e1b9b495ce93999fc163"
+  },
+  {
+   "file": "P045.zip",
+   "bytes": 41822459,
+   "sha256": "257e2c452a2faaea6b6ea2aebae65681843197a3282336efbc6234c8938e03e4",
+   "zenodo_md5": "eb4a3fd316df4957b1ebae5836a46468"
+  },
+  {
+   "file": "P046.zip",
+   "bytes": 37791681,
+   "sha256": "3cb70787e01531ee02a76550b3c4bec70d885a9e8d06b2c7bfc0d64e079d7941",
+   "zenodo_md5": "1d3a1f8dcdaf75aea0edd49d65795fda"
+  },
+  {
+   "file": "P047.zip",
+   "bytes": 22729293,
+   "sha256": "cb243cffa7a7399781ea7b176285453b932bc4b419f60747353d75ecee3c0de8",
+   "zenodo_md5": "c221e9046556794cbb8eb1b0d96cd6d1"
+  },
+  {
+   "file": "Readme.md",
+   "bytes": 5656,
+   "sha256": "640f45a051891f7a384a2fd3b5d209c94646b4b4a3112bc03fce570922fb7ecb",
+   "zenodo_md5": "a06bc740cbc55612fbe3d413d2702d2f"
+  },
+  {
+   "file": "Supplementary Files.zip",
+   "bytes": 736266,
+   "sha256": "b3c557452f23b74bac7c11208aa7303da1eca19e3d31f3b007658ecb78aefdfe",
+   "zenodo_md5": "f0d3868440caeb418f62b4ef5ef6b318"
+  },
+  {
+   "file": "dataset_description.json",
+   "bytes": 569,
+   "sha256": "c4861c58ea258dc9a03cf9e8f615e818d65c8a5cc8d1fa7dba4385fe5b7e9ef2",
+   "zenodo_md5": "c4fb285d08a8e71921bd2ff835e92313"
+  },
+  {
+   "file": "participants.json",
+   "bytes": 379,
+   "sha256": "1414dd7276a74f360ee173ed7f2716948a7684ca374c086a81be703da0a2d2fb",
+   "zenodo_md5": "49c55f9735de209a4471349bf69597c1"
+  },
+  {
+   "file": "participants.tsv",
+   "bytes": 734,
+   "sha256": "a4b28d1af9300c5f855b71ae14c7f3457119b680f5572ab24d80f6e0c26e520b",
+   "zenodo_md5": "43e27bdb531565850ce49f50cb00897c"
+  }
+ ]
+}

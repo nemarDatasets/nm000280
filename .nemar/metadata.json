@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
+  "title": "A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents",
+  "description": "This dataset comprises EEG recordings from 47 neurotypical children and adolescents (ages 5-18) collected during a steady-state visual evoked potential (SSVEP)-based brain-computer interface (BCI) session, consisting of a stimulus personalization stage and an online 4-target SSVEP game. Data were recorded with a 16-channel g.tec g.GAMMAsys gel-based EEG system at 256 Hz. The dataset was converted to BIDS format from an original Zenodo XDF release and supports the development of pediatric-specific SSVEP-BCI signal-processing methods.",
+  "methods_description": "EEG was recorded using a g.tec g.GAMMAsys gel-based system (g.USBamp, g.GAMMAcap) with 16 channels sampled at 256 Hz, earlobe reference, and Fpz ground. Participants completed a two-stage protocol: a stimulus personalization task (12 stimuli varying in contrast and size, flickering at 10 Hz) followed by an online 4-target SSVEP game at 6.25/10/11.11/14.28 Hz across two themed maps, using both personalized and standard high-contrast stimuli. Raw XDF recordings were converted to BrainVision format with BIDS sidecars using mne-bids, following channel order, scaling, and montage conventions from the MOABB Schrag2026Pediatric reader.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Emily Schrag": {
       "orcid": "0009-0000-1607-2621"
@@ -15,6 +20,31 @@
       "orcid": "0000-0002-5163-3073"
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "pediatric neuroimaging"
+    },
+    {
+      "term": "steady-state visual evoked potential"
+    },
+    {
+      "term": "children and adolescents"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.20848097",
@@ -29,7 +59,7 @@
     {
       "identifier": "10.5281/zenodo.19440996",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000280",
@@ -42,14 +72,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "2.6 GB (326 files)"
   ],
@@ -61,40 +88,8 @@
     ".tsv",
     ".vhdr",
     ".vmrk",
+    ".yml",
     ".zip"
   ],
-  "description": "This dataset comprises EEG recordings from 47 neurotypical children and adolescents (ages 5-18) who completed a two-stage steady-state visual evoked potential (SSVEP) brain-computer interface (BCI) session, including a stimulus personalization pipeline and an online 4-target SSVEP game. Data were collected as part of the BCI4Kids program to support development of signal-processing methods for pediatric SSVEP-BCI applications. The dataset was converted from raw XDF recordings into BIDS-compliant BrainVision format using mne-bids.",
-  "methods_description": "EEG was recorded using a g.tec g.GAMMAsys gel-based system (g.USBamp, g.GAMMAcap) with 16 channels at 256 Hz, earlobe reference, and Fpz ground. Participants completed a stimulus personalization task (12 stimuli, 4 contrasts x 3 sizes, flickering at 10 Hz) followed by an online 4-target SSVEP game (6.25/10/11.11/14.28 Hz) played on two themed maps. Raw XDF recordings were converted to BrainVision format with mne-bids, deriving channels.tsv, events.tsv, and JSON sidecars, following channel order, scaling, and standard_1020 montage conventions from the MOABB Schrag2026Pediatric reader.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "SSVEP"
-    },
-    {
-      "term": "pediatric"
-    },
-    {
-      "term": "steady-state visual evoked potential"
-    },
-    {
-      "term": "children"
-    },
-    {
-      "term": "adolescents"
-    },
-    {
-      "term": "BrainVision"
-    },
-    {
-      "term": "fbCCA"
-    }
-  ],
-  "source_hash": "8d477d92395ac29416e8008c9adae9c09f3a398c9b7d55e7ecc7e86a9f2c94bb"
+  "source_hash": "48c972dfd56f337112736aea0b103f8ef527ee7b345ba2ea183ef8d03b0cebc4"
 }

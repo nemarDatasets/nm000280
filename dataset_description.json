@@ -1,33 +1,37 @@
 {
-    "Name": "A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents",
-    "BIDSVersion": "1.9.0",
-    "DatasetType": "raw",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Emily Schrag",
-        "Daniel Comaduran Marquez",
-        "Adam Kirton",
-        "Eli Kinney-Lang"
-    ],
-    "Acknowledgements": "Data collected by the BCI4Kids program.",
-    "HowToAcknowledge": "Please cite the dataset (https://doi.org/10.5281/zenodo.19440996) and the associated paper (https://doi.org/10.21203/rs.3.rs-9347306/v1).",
-    "SourceDatasets": [
-        {
-            "DOI": "doi:10.5281/zenodo.20848097",
-            "URL": "https://zenodo.org/records/20848097",
-            "Version": "3.0"
-        }
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.21203/rs.3.rs-9347306/v1",
-        "https://doi.org/10.5281/zenodo.19440996"
-    ],
-    "GeneratedBy": [
-        {
-            "Name": "mne-bids",
-            "Version": "0.19.0",
-            "CodeURL": "https://mne.tools/mne-bids/",
-            "Description": "Converted from the raw XDF recordings published in Zenodo version 3.0 into BIDS-compliant BrainVision files. Channel order, microvolt-to-volt scaling and the standard_1020 montage follow the MOABB Schrag2026Pediatric reader."
-        }
-    ]
+  "Name": "A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Emily Schrag",
+    "Daniel Comaduran Marquez",
+    "Adam Kirton",
+    "Eli Kinney-Lang"
+  ],
+  "Acknowledgements": "Data collected by the BCI4Kids program.",
+  "HowToAcknowledge": "Please cite the dataset (https://doi.org/10.5281/zenodo.19440996) and the associated paper (https://doi.org/10.21203/rs.3.rs-9347306/v1).",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.20848097",
+      "URL": "https://zenodo.org/records/20848097",
+      "Version": "3.0"
+    }
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.21203/rs.3.rs-9347306/v1",
+    "https://doi.org/10.5281/zenodo.19440996"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "mne-bids",
+      "Version": "0.19.0",
+      "CodeURL": "https://mne.tools/mne-bids/",
+      "Description": "Converted from the raw XDF recordings published in Zenodo version 3.0 into BIDS-compliant BrainVision files. Channel order, microvolt-to-volt scaling and the standard_1020 montage follow the MOABB Schrag2026Pediatric reader."
+    }
+  ],
+  "EthicsApprovals": [
+    "University of Calgary Conjoint Health Research Ethics Board, REB25-0723. Informed assent and parental consent were obtained for all participants, and all participants (or their guardians) consented to the sharing and publication of their de-identified data."
+  ],
+  "Version": "1.0.1"
 }

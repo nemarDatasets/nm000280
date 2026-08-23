@@ -72,6 +72,16 @@ Everything published on Zenodo -- including the comfort ratings, the movement
 CSVs and videos, the surveys and the supplementary files, none of which BIDS
 represents -- is preserved unchanged under `sourcedata/`.
 
+## Ethics
+
+This study was approved by the **University of Calgary Conjoint Health Research
+Ethics Board under ID REB25-0723**. Informed assent and parental consent were
+obtained for all participants, and all participants -- or their guardians --
+consented to the sharing and publication of their de-identified data. The data
+were collected from participants recruited through the Healthy Infants and
+Children's Clinical Research Program, a community-based healthy-control
+recruitment program.
+
 ## Licence
 
 CC-BY-4.0, following the licence the authors set on Zenodo version 3.0. Earlier

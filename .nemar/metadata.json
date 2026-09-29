@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents",
-  "description": "This dataset comprises EEG recordings from 47 neurotypical children and adolescents (ages 5-18) collected during a steady-state visual evoked potential (SSVEP)-based brain-computer interface (BCI) session, consisting of a stimulus personalization stage and an online 4-target SSVEP game. Data were recorded with a 16-channel g.tec g.GAMMAsys gel-based EEG system at 256 Hz. The dataset was converted to BIDS format from an original Zenodo XDF release and supports the development of pediatric-specific SSVEP-BCI signal-processing methods.",
-  "methods_description": "EEG was recorded using a g.tec g.GAMMAsys gel-based system (g.USBamp, g.GAMMAcap) with 16 channels sampled at 256 Hz, earlobe reference, and Fpz ground. Participants completed a two-stage protocol: a stimulus personalization task (12 stimuli varying in contrast and size, flickering at 10 Hz) followed by an online 4-target SSVEP game at 6.25/10/11.11/14.28 Hz across two themed maps, using both personalized and standard high-contrast stimuli. Raw XDF recordings were converted to BrainVision format with BIDS sidecars using mne-bids, following channel order, scaling, and montage conventions from the MOABB Schrag2026Pediatric reader.",
+  "description": "EEG recordings from 47 neurotypical children and adolescents (5-18 years) who each completed a two-stage SSVEP-based brain-computer interface session. The first stage was a stimulus personalization pipeline. The second was an online 4-target SSVEP game. Data were recorded with a 16-channel g.tec gel-based system at 256 Hz and released to support signal-processing methods developed specifically for pediatric SSVEP-BCI data.",
+  "methods_description": "EEG was recorded with a g.tec g.GAMMAsys gel-based system (g.USBamp, g.GAMMAcap) using 16 channels at 256 Hz, an earlobe reference and an Fpz ground. Participants completed a stimulus personalization task with 12 stimuli (4 contrasts x 3 sizes) flickering at 10 Hz, followed by an online 4-target SSVEP game at 6.25, 10, 11.11 and 14.28 Hz. The game used a personal stimulus and a high-contrast standard stimulus on two themed maps. Original XDF recordings were converted to BIDS BrainVision files with mne-bids.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -25,24 +25,26 @@
       "term": "EEG"
     },
     {
+      "term": "SSVEP"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "pediatric"
+    },
+    {
+      "term": "Evoked Potentials, Visual",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
+    },
+    {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "SSVEP"
-    },
-    {
-      "term": "pediatric neuroimaging"
-    },
-    {
-      "term": "steady-state visual evoked potential"
-    },
-    {
       "term": "children and adolescents"
-    },
-    {
-      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -78,7 +80,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.6 GB (326 files)"
+    "2.41 GB (326 files)"
   ],
   "formats": [
     ".eeg",

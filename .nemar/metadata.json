@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents",
-  "description": "EEG recordings from 47 neurotypical children and adolescents (5-18 years) who each completed a two-stage SSVEP-based brain-computer interface session. The first stage was a stimulus personalization pipeline. The second was an online 4-target SSVEP game. Data were recorded with a 16-channel g.tec gel-based system at 256 Hz and released to support signal-processing methods developed specifically for pediatric SSVEP-BCI data.",
-  "methods_description": "EEG was recorded with a g.tec g.GAMMAsys gel-based system (g.USBamp, g.GAMMAcap) using 16 channels at 256 Hz, an earlobe reference and an Fpz ground. Participants completed a stimulus personalization task with 12 stimuli (4 contrasts x 3 sizes) flickering at 10 Hz, followed by an online 4-target SSVEP game at 6.25, 10, 11.11 and 14.28 Hz. The game used a personal stimulus and a high-contrast standard stimulus on two themed maps. Original XDF recordings were converted to BIDS BrainVision files with mne-bids.",
+  "description": "EEG recordings from 47 neurotypical children and adolescents (5-18 years) who each completed a two-stage SSVEP-based brain-computer interface session. The session comprised a stimulus personalization pipeline followed by an online 4-target SSVEP game. Data were recorded with a 16-channel g.tec gel-based system at 256 Hz. The dataset was released by the BCI4Kids program to support signal-processing methods developed specifically for pediatric SSVEP-BCI data.",
+  "methods_description": "EEG was recorded with a g.tec g.GAMMAsys gel-based system (g.USBamp, g.GAMMAcap), 16 channels at 256 Hz, with earlobe reference and Fpz ground. Task T1 presented 12 stimuli (4 contrasts x 3 sizes) flickering at 10 Hz for personalization. Tasks T2 and T3 were an online 4-target SSVEP game at 6.25, 10, 11.11 and 14.28 Hz, played once with the personal stimulus and once with a high-contrast standard. Original XDF recordings were converted to BrainVision format with mne-bids.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -34,17 +34,14 @@
       "term": "pediatric"
     },
     {
-      "term": "Evoked Potentials, Visual",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "visual evoked potentials"
     },
     {
       "term": "children and adolescents"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH"
     }
   ],
   "related_identifiers": [
@@ -93,5 +90,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "48c972dfd56f337112736aea0b103f8ef527ee7b345ba2ea183ef8d03b0cebc4"
+  "source_hash": "05f67c8ab7e3651173ba6a7fc134f7e5c347a1a9b9897564c86d4326e03b2c0b"
 }

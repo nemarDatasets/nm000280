@@ -1,0 +1,102 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000280-blue)](https://doi.org/10.82901/nemar.nm000280)
+
+# A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents
+
+EEG from 47 neurotypical children and adolescents (5-18 years, mean 12.6 +/- 3.9;
+19 female) who each completed a two-stage SSVEP-BCI session: a stimulus
+personalization pipeline, then an online 4-target SSVEP game. Recorded with a
+g.tec g.GAMMAsys gel-based system (g.USBamp, g.GAMMAcap), 16 channels at 256 Hz,
+earlobe reference, Fpz ground.
+
+Released by the BCI4Kids program to support signal-processing methods developed
+specifically for pediatric SSVEP-BCI data.
+
+## Contents
+
+    sub-<label>/ses-S001/eeg/    BrainVision EEG + BIDS sidecars
+    sourcedata/                  the original Zenodo v3.0 distribution, verbatim
+
+## Tasks
+
+| task | description |
+|------|-------------|
+| `T1` | Stimulus personalization: 12 stimuli (4 contrasts x 3 sizes), all flickering at 10 Hz. |
+| `T2`, `T3` | Online 4-target SSVEP game at 6.25 / 10 / 11.11 / 14.28 Hz, played on two themed maps -- once with the participant's personal stimulus and once with a high-contrast standard. |
+| `T4` | An additional game run, present for sub-P026 only. |
+
+Four participants (sub-P016, sub-P023, sub-P039, sub-P043) have a single game
+run rather than two.
+
+## The `acq` entity
+
+Game runs carry `acq-<stimulus><map>`, joining two properties the upstream
+filenames separated with an underscore (`acq-C4S1_M1`), which BIDS would read as
+two entities:
+
+* stimulus -- `BW` is the high-contrast standard stimulus; `C<x>S<y>` is the
+  personal stimulus at contrast `<x>`, size `<y>`.
+* map -- `M1` or `M2`, the themed map used for that game.
+
+So `acq-C4S1M1` is "personal stimulus, contrast 4 size 1, map 1", and `acq-BWM2`
+is "standard stimulus, map 2".
+
+## Events
+
+`events.tsv` reports the Unity marker stream verbatim, as logged during the
+experiment. Game runs additionally logged the live fbCCA classifier output in a
+separate stream; that stream is *not* folded into `trial_type`, because it is
+the frequency the system identified rather than the frequency the participant
+was asked to look at.
+
+> **Trial labels are not ground truth.** The frequency a participant was
+> instructed to attend is recorded in the per-game movement CSVs under
+> `sourcedata/`, together with the corner-to-frequency mapping, which was
+> randomised across the game. Treating the classifier's selection as the label
+> biases benchmarks toward fbCCA's behaviour.
+
+## Provenance
+
+The Zenodo release states BIDS in its `dataset_description.json` and README, but
+ships raw XDF recordings with BIDS-style filenames and no sidecars. This deposit
+converts those recordings to BrainVision with `mne-bids`, deriving
+`channels.tsv`, `events.tsv` and the JSON sidecars. Channel order, the
+microvolt-to-volt scaling and the `standard_1020` montage follow the MOABB
+`Schrag2026Pediatric` reader, so this deposit and that loader agree.
+
+No electrode coordinate files are included. Positions were never digitised for
+this study, and writing the idealised `standard_1020` template coordinates would
+have required labelling them `space-CapTrak`, which asserts a measurement that
+did not happen. All channels carry standard 10-20 names, so the template montage
+is recoverable in one call (`raw.set_montage("standard_1020")`), which is what
+the MOABB reader does.
+
+Everything published on Zenodo -- including the comfort ratings, the movement
+CSVs and videos, the surveys and the supplementary files, none of which BIDS
+represents -- is preserved unchanged under `sourcedata/`.
+
+## Ethics
+
+This study was approved by the **University of Calgary Conjoint Health Research
+Ethics Board under ID REB25-0723**. Informed assent and parental consent were
+obtained for all participants, and all participants -- or their guardians --
+consented to the sharing and publication of their de-identified data. The data
+were collected from participants recruited through the Healthy Infants and
+Children's Clinical Research Program, a community-based healthy-control
+recruitment program.
+
+## Licence
+
+CC-BY-4.0, following the licence the authors set on Zenodo version 3.0. Earlier
+versions (1.0 and 2) were CC-BY-ND-4.0. Note that the `dataset_description.json`
+*inside* the version 3.0 archive still carries the superseded `CC-BY-ND-4.0`
+string and the older concept DOI; the Zenodo record itself is authoritative and
+states CC-BY-4.0.
+
+## Citation
+
+Schrag, E., Comaduran Marquez, D., Kirton, A., & Kinney-Lang, E. (2026).
+*A steady-state visual evoked potential-based brain-computer interface dataset
+in children and adolescents.* Research Square preprint.
+https://doi.org/10.21203/rs.3.rs-9347306/v1
+
+Dataset: https://doi.org/10.5281/zenodo.19440996

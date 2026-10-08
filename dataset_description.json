@@ -33,5 +33,6 @@
   "EthicsApprovals": [
     "University of Calgary Conjoint Health Research Ethics Board, REB25-0723. Informed assent and parental consent were obtained for all participants, and all participants (or their guardians) consented to the sharing and publication of their de-identified data."
   ],
-  "Version": "1.0.1"
+  "Version": "1.0.1",
+  "DatasetDOI": "10.82901/nemar.nm000280"
 }
